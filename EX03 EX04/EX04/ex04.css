@@ -1,0 +1,47 @@
+body {
+    background-color: #EBCED5;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registro {
+    margin: 90px auto;
+    background-color: #FCF0E3;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    width: 80%;
+    color: #3746BD;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #F26A7E;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+
+}
+
+
+button {
+    background-color: #F26A7E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #3746BD;
+}

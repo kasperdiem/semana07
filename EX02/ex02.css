@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    height: 100vh; 
+}
+
+.sidebar {
+    background-color: #ffcc00;
+    padding: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.principal {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.header {
+    background-color: #ff6666;
+    padding: 20px;
+}
+
+.content {
+    background-color: #66ccff;
+    padding: 20px;
+}
+

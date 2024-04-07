@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #FFD700;
+}
+
+.menu {
+    padding-top: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    height: 50px;
+    background-color: #FFA07A;
+}
+
+.content {
+    flex: 1;
+    background-color: #87CEEB;
+}

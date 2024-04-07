@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="ex03.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sessao">
+            <h1 id="log">Logue para começar sua sessão</h1>
+            <p id="conta">Você ainda não tem uma conta? Inscreva-se clicando <a href="EX04/ex4.html">AQUI</a></p>
+            <img class="imagem" src="https://i0.wp.com/t-artmagazine.com/wp-content/uploads/2021/04/vector-creator.png?fit=800%2C534&ssl=1" alt="Img Corporativa">
+
+        </div>
+
+        <div class="lado-direito">
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+
+            <p class="ou">ou</p>
+
+            <div class="botoes">
+                <button onclick="google()">Entre com Google</button>
+                <button onclick="facebook()">Entre com Facebook</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="ex03.js"></script>
+</body>
+
+</html>

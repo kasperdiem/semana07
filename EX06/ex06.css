@@ -1,0 +1,95 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #000;
+    height: 100vh;
+    margin: 0;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.home {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    font-size: 40px;
+    margin-left: 130px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-size: 25px;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #B2B2B2;
+}
+
+
+.content {
+    display: flex;
+}
+
+.texto {
+    flex: 1.5;
+
+}
+
+.imagem {
+    flex: 1;
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+}
+
+
+h1 {
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: 180px;
+}
+
+p {
+    font-size: 35px;
+    color: #B2B2B2;
+    margin-left: 150px;
+}
+
+
+.button {
+    background-color: #FFBF00;
+    color: #332200;
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    margin-left: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #B2B2B2;
+    color: #000;
+}
